@@ -1,5 +1,5 @@
 {
-  "buildCommand": "echo 'Static site'",
-  "outputDirectory": ".",
-  "installCommand": null
+  "buildCommand": "mkdir -p /vercel/output/static && cp index.html style.css /vercel/output/static/",
+  "outputDirectory": "/vercel/output/static"
 }
+
